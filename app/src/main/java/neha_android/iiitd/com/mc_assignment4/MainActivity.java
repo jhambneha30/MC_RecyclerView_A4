@@ -12,6 +12,7 @@ import android.support.v7.widget.RecyclerView;
 import android.support.v7.widget.Toolbar;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -20,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
     public static List<ThingsToDo> todoList = new ArrayList<>();
     private RecyclerView recyclerView;
     private ToDoThingsAdapter mAdapter;
-    private Button mAddNewButton;
+    private ImageButton mAddNewButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,7 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
         recyclerView = (RecyclerView) findViewById(R.id.todo_recycler_view);
 
-        mAddNewButton = (Button) findViewById(R.id.addNewBtn);
+        mAddNewButton = (ImageButton) findViewById(R.id.addNewBtn);
 
         mAddNewButton.setOnClickListener(new View.OnClickListener() {
             @Override

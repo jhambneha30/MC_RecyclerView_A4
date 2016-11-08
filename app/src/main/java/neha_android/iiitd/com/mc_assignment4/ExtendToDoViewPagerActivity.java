@@ -14,10 +14,6 @@ public class ExtendToDoViewPagerActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_extend_to_do);
 
-//        Toolbar toolbar_todo_extended = (Toolbar) findViewById(R.id.toolbar_extendedToDo);
-//        setSupportActionBar(toolbar_todo_extended);
-//        ActionBar acBar = getSupportActionBar();
-//        acBar.setDisplayHomeAsUpEnabled(true);
 
         if (savedInstanceState == null) {
             Bundle extras = getIntent().getExtras();

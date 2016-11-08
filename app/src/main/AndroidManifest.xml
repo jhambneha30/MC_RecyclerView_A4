@@ -18,10 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ExtendToDoViewPagerActivity"
-        android:label="@string/extended_todo"
+        <activity
+            android:name=".ExtendToDoViewPagerActivity"
+            android:label="@string/extended_todo"
             android:parentActivityName=".MainActivity"/>
-        <activity android:name=".AddNewToDoActivity"
+        <activity
+            android:name=".AddNewToDoActivity"
             android:label="@string/add_todo"
             android:parentActivityName=".MainActivity"/>
     </application>

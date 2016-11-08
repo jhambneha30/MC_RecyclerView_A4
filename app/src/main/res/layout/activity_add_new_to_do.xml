@@ -11,35 +11,31 @@
     tools:context="neha_android.iiitd.com.mc_assignment4.AddNewToDoActivity">
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Details"
+        style="@style/CustomLabelStyle"
+        android:text="@string/details"
         android:id="@+id/textViewTitle"
         android:textSize="30dp"
-        android:textIsSelectable="false"
         android:layout_alignBottom="@+id/editTextDetails"
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:layout_width="250dp"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:id="@+id/editTextTitle"
         android:layout_alignBottom="@+id/textViewDetails"
         android:layout_alignParentEnd="true" />
 
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Title"
+        style="@style/CustomLabelStyle"
+        android:text="@string/title"
         android:id="@+id/textViewDetails"
         android:textSize="30dp"
-        android:textIsSelectable="false"
         android:layout_marginTop="90dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentStart="true" />
 
     <EditText
-        android:layout_width="250dp"
+        android:layout_width="220dp"
         android:layout_height="wrap_content"
         android:id="@+id/editTextDetails"
         android:layout_below="@+id/textViewDetails"
@@ -51,6 +47,7 @@
         android:layout_height="wrap_content"
         android:text="Submit"
         android:id="@+id/buttonSubmit"
+        style="@style/CustomSubmitButton"
         android:layout_marginTop="87dp"
         android:layout_below="@+id/editTextDetails"
         android:layout_centerHorizontal="true" />
