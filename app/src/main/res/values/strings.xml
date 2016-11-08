@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MC_Assignment4</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_todolist">To Do List</string>
+    <string name="view_page">View Page</string>
+    <string name="add_todo">Add Task</string>
+    <string name="extended_todo">Task description</string>
+</resources>
