@@ -7,4 +7,5 @@
     <string name="extended_todo">Task description</string>
     <string name="title">TITLE</string>
     <string name="details">DETAILS</string>
+    <string name="submit">SUBMIT</string>
 </resources>

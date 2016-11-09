@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#3F51B5</color>
-    <color name="colorSecondary">#FF606B</color>
+    <color name="colorPrimary">#FF606B</color>
+    <color name="colorSecondary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <color name="detail_recycler_view">#A9A9A9</color>
     <color name="title_recycler_view">#696969</color>
     <color name="white">#FFFFFF</color>
-    <color name="mustard">#FFC850</color>
+    <color name="mustard">#42A97E</color>
     <color name="reddishPink">#f47f7f</color>
 
 </resources>
